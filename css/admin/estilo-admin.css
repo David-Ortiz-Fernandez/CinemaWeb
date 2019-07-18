@@ -1,0 +1,99 @@
+.listado {
+	margin-left:30px;
+	font-size:20px;
+	color:#141526;
+	font-weight: bold;
+
+}
+
+#textm{
+	
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+textarea{
+	
+	    margin-left: 30px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+		width:40%;
+		min-width:200px;
+		min-height:80px;
+		background:#9193a8;
+}
+
+#botona{
+
+	margin-left:10%;
+	width:80%
+}
+
+.ban{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.containeradmin{
+	width:20%;
+	margin-left:40%;
+	margin-top:3%;
+	background:#e6e8e5;
+	border-radius:6px;
+	opacity:0.9;
+}
+
+
+.titulo{
+
+	margin-top:0;
+	background: #fff38e;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100px;
+	border-radius: 5px;
+
+}
+
+.titulo{
+
+	text-align: center;
+}
+
+
+
+input{
+
+	margin-top: 8px;
+	margin-bottom: 15px;
+	padding: 8px;
+
+}
+
+
+input[type="submit"]{
+
+	margin-bottom: 20px;
+	background: linear-gradient(#FFDA63, #FFB940);
+	border: 0;
+	color: black;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+
+}
+
+input[type="submit"]:hover{
+
+	opacity: 1;
+}
+
+input[type="submit"]:active{
+
+	transform: scale(0.95);
+}
+
+

@@ -1,0 +1,82 @@
+.cine-contenedor {
+	background-color: #9193a8;
+
+	font-family:"HCo Gotham SSm",Helvetica,Arial,sans-serif;
+
+
+	margin: 30px;
+}
+
+.promotitulo{
+	background:#9193a8;
+	border-bottom:5px solid #686a83;
+	color:#141526;
+	border-radius:10px;
+}
+
+.cine-contenedor-header h1 {
+	text-decoration: underline;
+	font-size: 2rem;
+}
+
+.cine-contenedor-promos{
+	padding: 10px;
+	overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.cine-contenedor-promos h1{
+  clear: both;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 2rem;
+}
+
+.cine-contenedor-promos h2 {
+	margin-left: 10px;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+.promos-destacadas {
+  clear: both;
+  margin-bottom:20px;
+}
+
+.promos-destacadas {
+  clear: both;
+}
+
+.promos-img{
+  float:left;
+	overflow: hidden;
+	width:25%;
+
+}
+
+.promos-img img{
+	transition: .9s; /*para que al volver a su posicion lo haga tb despacio*/
+	width: 100%; /*la imagen se expande completamente en el div*/
+	display:flex;
+	border-radius: 20px;
+ }
+
+.promos-img:hover img{
+
+	transform: rotate(360deg);
+	transition: .9s;
+}
+
+p{
+	background:#141526;
+	color:white;
+	border-radius:4px;
+}
+
+marquee{
+	background:#fff38e;
+	border-radius:4px;
+	color:#141526;
+}
+

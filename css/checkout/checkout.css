@@ -1,0 +1,91 @@
+.schedules {
+  position: relative;
+  list-style: none;
+  left: 15%;
+  width: 90px;
+  margin: 24px;
+  float:left;
+}
+
+.schedules  ul {
+  list-style: none;
+}
+.shopMenu  ul {
+  list-style: none;
+
+}
+
+.schedules li {
+  background:darkGrey;
+  text-align: center;
+  margin:2px;
+  border-radius: 15px;
+}
+
+.shopMenu li {
+  background:darkGrey;
+  text-align: center;
+  margin:2px;
+  border-radius: 15px;
+   -webkit-border-radius: 30px;
+}
+.schedules a{
+  text-decoration: none;
+  line-height: 50px;
+  font-family: sans-serif;
+  color: #fff;
+
+}
+.shopMenu li:hover{
+  border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+}
+
+.schedules a:checked{
+  background: cyan;
+}
+
+.schedules li:hover{
+  border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+}
+.shopMenu{
+  margin: 24px;
+}
+
+
+.shopMenu a{
+  text-decoration: none;
+  line-height: 50px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.cover {
+  display:inline-block;
+  width: 20%;
+  left: -23%;
+
+}
+article{
+  background: grey!important;
+  padding-bottom: 6% !important;
+
+}
+
+
+@media screen and (max-width : 1040px){
+	.cover {
+    display: none;
+  }
+}
+
+  @media screen and (max-width : 450px){
+
+    .shopMenu{
+      display: none
+    }
+
+}

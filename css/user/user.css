@@ -1,0 +1,145 @@
+.user li {
+  list-style-type: none;
+  background:#141526;
+  text-align: center;
+  margin:4px;
+  margin-left: 5px;
+  border-radius: 10px;
+  width: 350px;
+  color: #686a83;
+  border: 2px solid #141526; 
+}
+
+.user{
+  display:-webkit-inline-box;
+  font-size: 20px;
+  position: relative;
+  
+  float:left;
+  clear: both;
+  
+
+}
+
+article{
+	background: #f6f5f2;
+	padding:0px;
+}
+
+.user a {
+  text-decoration: none;
+  color:#fff38e;
+
+}
+.user a:hover{
+
+  color:white;
+
+}
+
+.profilePicture{
+  background:#141526;
+  display: inline-block;
+  width:100%;
+  clear: both;
+  border-radius: 10px;
+
+}
+.profilePicture h{
+	color:white;
+	float:left;
+	font-size: 30px;
+	padding-top:70px;
+	padding-left:20px;
+	text-align: center;
+}
+#picture{
+  border-radius:10%;
+  border: 3px solid black;
+  
+}
+
+.info {
+
+  position:absolute;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 20px;
+ 
+}
+
+
+
+.info li{
+  list-style-type: none;
+  background:#fff38e;
+  text-align: center;
+  margin:4px;
+  margin-left: 5px;
+  border-radius: 10px;
+  width: 350px;
+  color: #141526;
+  border: 2px solid #141526;
+}
+.vacio{
+  display:none;
+}
+.pic{
+	float:left;
+	
+}
+@media screen and (max-width : 1150px){
+.profilePicture{
+    display: none;
+  }
+}
+
+  @media screen and (max-width : 830px){
+  	.user{
+      font-size: 15px;
+    }
+    .info{
+      font-size: 15px;
+    }
+
+    .user li {
+      width: 250px;
+
+    }
+
+    .info li {
+      width: 250px;
+
+    }
+}
+
+
+@media screen and (max-width : 605px){
+  .user{
+    font-size: 10px;
+  }
+  .info{
+    font-size: 10px;
+  }
+
+  .user li {
+    width: 150px;
+
+  }
+
+  .info li {
+    width: 150px;
+
+  }
+}
+
+@media screen and (max-width : 386px){
+  .user li{
+    display:none;
+  }
+
+  .info li {
+	display:none;
+  }
+
+ }

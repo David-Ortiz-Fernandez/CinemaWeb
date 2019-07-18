@@ -1,0 +1,108 @@
+
+
+/*********************************************CUERPO**************************************/
+
+/*****Cabeceras de texto******/
+.cabece{
+	width:100%;
+	float:left;
+	border-bottom: 5px solid #686a83;
+	padding-top:2%;	
+}
+
+.cabece > h2{
+	font-size: 1.4rem;
+	color:#141526; 
+	padding-left:1.5%;
+}
+
+
+/****Imagenes de peliculas*******/
+.pelicula,.promo{
+	float:left;	
+	width:16.6667%;	
+	min-width:120px;
+	overflow: hidden;
+ }
+ 
+.promo{
+	width:20%;	  
+ }
+ 
+.pelicula img, .promo img{
+	transition: .9s; /*para que al volver a su posicion lo haga tb despacio*/
+	width: 100%; /*la imagen se expande completamente en el div*/
+	display:flex;
+ }
+ 
+.pelicula:hover img ,.promo:hover img{
+	transform:scale(1.20);
+	transition: .9s;
+}
+
+@media (max-width:870px){
+	nav{
+		width:28%;
+		min-width:150px;
+		height:auto;
+		margin:0;
+		position:fixed;		
+		display:none;
+	}
+	nav a {
+	font: italic bold 100% cursive;
+	}
+	/*#botton2{
+		font: italic bold 110% cursive;
+	}*/
+	nav ul li{
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255,.3)
+		
+	}
+	nav li:hover ul{ /*para que al seleccionar el algo no se despliege el segundo nivel none*/
+		display:none;	
+	}
+	.logo{
+		float:right;
+	}	
+	header label{
+		display:block;
+		height:80px;
+		background:#141526;
+		color:white;
+		text-decoration:none;
+		font: italic bold 300% cursive;
+		margin-left:30px;
+	}
+	 header label > i{
+		padding-top:20px;
+		}
+}
+@media (max-width:816px){
+		.pelicula{
+			width:25%;
+		}
+}
+@media (max-width:683px){
+		.promo{
+			width:25%;
+		}
+}
+@media (max-width:550px){
+		.pelicula{
+			width:33.3%;
+		}
+		.promo{
+			width:33.3%;
+		}
+}
+@media (max-width:416px){
+		.pelicula{
+			width:50%;
+		}
+		.promo{
+			width:50%
+		}
+}

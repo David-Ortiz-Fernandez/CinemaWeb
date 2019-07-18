@@ -1,0 +1,95 @@
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
+.cine-contenedor {
+	background-color: #f6f5f2;
+
+	font-family:"HCo Gotham SSm",Helvetica,Arial,sans-serif;
+
+	border-color: black;
+	border-style: solid;
+
+	margin: 30px;
+}
+
+.cine-contenedor-header {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+.cine-contenedor-header h1 {
+	text-decoration: underline;
+	font-size: 2rem;
+}
+
+.cine-contenedor-peliculas{
+	padding: 10px;
+	overflow: hidden;
+}
+
+.cine-contenedor-peliculas h2 {
+	margin-left: 10px;
+	margin-top: 10px;
+	text-decoration: underline;
+}
+
+.info-contenedor {
+	clear: both;
+}
+
+.info-img {
+	margin: 15px;
+	float:left;
+  min-width: 400px;
+  border: solid blue;
+  overflow-x: scroll;
+}
+
+.info-img img{
+	width: 100%;
+}
+
+.info-descripcion {
+  float: left;
+  max-width: 75%;
+
+  margin: 15px;
+
+  line-height: 30px;
+
+  border: solid red;
+
+}
+
+.pelicula-contenedor {
+	clear: both;
+}
+
+.pelicula-img {
+	margin: 15px;
+	float:left;
+	max-width: 25%;
+}
+
+.pelicula-img img{
+	width: 200px;
+	height: 280px;
+}
+
+.pelicula-detalles {
+	margin: 15px;
+	float: left;
+
+	max-width: 75%;
+
+}
+
+p.horarios{
+	font-weight: bold;
+	text-decoration: underline;
+	line-height: 150%;
+}

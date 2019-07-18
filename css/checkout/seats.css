@@ -1,0 +1,70 @@
+.seats {
+  display: inline-table;
+	position: relative;
+	left:15%;
+
+}
+
+.seat {
+  font-size: 35px!important;
+  border-radius: .2em;
+  margin: 6px;
+}
+
+.seat.open {
+  color: #95a5a6;
+  cursor: pointer;
+}
+
+.seat.open:hover {
+  color: #a5b6b7;
+}
+
+.seat.selected {
+  color: #2ECC71;
+  cursor: pointer;
+}
+
+.seat.occupied {
+  color: #e74c3c;
+  cursor: not-allowed;
+}
+
+.seat.unavailable {
+  color: #2c3e50;
+  cursor: default;
+}
+
+.seatsGroup {
+  display: block;
+ 
+	float: left;
+	margin: 15px;
+}
+
+
+
+.seatsGroup .row {
+  display: flex;
+}
+
+@media screen and (max-width : 680px){
+
+  .seat{
+    font-size: 25px!important;
+  }
+}
+
+  @media screen and (max-width : 555px){
+
+    .seat{
+      font-size: 15px!important;
+    }
+  }
+
+    @media screen and (max-width : 450px){
+
+      .seats{
+        display: none
+      }
+}

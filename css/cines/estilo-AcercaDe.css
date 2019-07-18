@@ -1,0 +1,28 @@
+.textot{
+	
+	margin-top:10px;
+	margin-left: 100px;
+	
+}
+
+article{
+	background: white !important;
+}
+
+#titulo{
+
+	  text-align: center;
+}
+
+#acerca{
+
+	margin-left:20px;
+	margin-top:20px;
+}
+
+.titulot{
+	
+	margin-top:10px;
+	font-weight: bold;
+	margin-bottom:10px;
+}

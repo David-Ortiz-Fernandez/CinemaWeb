@@ -1,0 +1,86 @@
+
+
+ol{
+	margin-left:35px;
+}
+
+.titulo{
+	opacity: 0.90;
+	margin-top:0;
+	background: #fff38e;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100px;
+
+}
+
+.titulo{
+
+	text-align: center;
+}
+
+.contact{
+
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	background: #e6e8e5;
+	border: 1px solid rgba(0,0,0,0.2);
+
+}
+
+.tabla{
+
+	padding:5px;
+	margin:5px;
+	
+}
+
+.text {
+	
+	margin-top:10px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+
+}
+
+
+.cont{
+
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+input{
+
+	margin-top: 8px;
+	margin-bottom: 15px;
+	padding: 8px;
+
+}
+
+
+input[type="submit"]{
+
+	margin-left:30px;
+	margin-bottom: 20px;
+	width:20%;
+	background: linear-gradient(#FFDA63, #FFB940);
+	border: 0;
+	color: black;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+
+}
+
+input[type="submit"]:hover{
+
+	opacity: 1;
+}
+
+input[type="submit"]:active{
+
+	transform: scale(0.95);
+}
+
+
